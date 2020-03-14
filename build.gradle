@@ -4,7 +4,7 @@ plugins {
   id 'com.github.johnrengelman.shadow' version '5.0.0'
 }
 
-group = 'com.example'
+group = 'com.github.mingchuno'
 version = '1.0.0-SNAPSHOT'
 
 repositories {
@@ -23,7 +23,7 @@ application {
 }
 
 
-def mainVerticleName = 'com.example.starter.MainVerticle'
+def mainVerticleName = 'com.github.mingchuno.urlshortener.MainVerticle'
 def watchForChange = 'src/**/*'
 def doOnChange = './gradlew classes'
 

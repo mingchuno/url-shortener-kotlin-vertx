@@ -1,4 +1,4 @@
-package com.example.starter
+package com.github.mingchuno.urlshortener
 
 import io.vertx.core.AbstractVerticle
 import io.vertx.core.Promise
